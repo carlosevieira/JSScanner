@@ -40,8 +40,8 @@ print("╔═══════════════════════�
       "║                                                                ║\n"
       "╚════════════════════════════════════════════════════════════════╝")
 
-path = input("Please Enter Any File: ") 
-reg = input("Path Of Regex/Patten File: ")
+path = sys.argv[1]
+reg = '/home/op/JSScanner/regex.txt'
 list=[] 
 file1 = open(path, 'r')
 Lines = file1.readlines() 
