@@ -41,7 +41,7 @@ print("╔═══════════════════════�
       "╚════════════════════════════════════════════════════════════════╝")
 
 path = sys.argv[1]
-reg = '/home/op/JSScanner/regex.txt'
+reg = '/home/op/JSScanner_Kadu/regex.txt'
 list=[] 
 file1 = open(path, 'r')
 Lines = file1.readlines() 
