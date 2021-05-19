@@ -10,41 +10,10 @@ import os
 import colored
 from colored import stylize
 urllib3.disable_warnings()
-print(colored.fg("red"), 
-     "╔════════════════════════════════════════════════════════════════╗\n"
-      "║                    Devlope By 0x240x23elu                      ║\n"
-      "║                                                                ║\n"
-      "╚════════════════════════════════════════════════════════════════╝")
-print("╔════════════════════════════════════════════════════════════════╗\n"
-      "║                                                                ║\n"
-      "║                           WARNING                              ║\n"
-      "║                                                                ║\n"
-      "║      I highly recommend using this tool by using Kali Linux OS ║\n"
-      "║                                                                ║\n"
-      "║      By using this tool it means you agree with terms,         ║\n"
-      "║      conditions, and risks                                     ║\n"
-      "║                                                                ║\n"
-      "║      By using this tool you agree that                         ║\n"
-      "║      1. use for legitimate security testing                    ║\n"
-      "║      2. not for crime                                          ║\n"
-      "║      3. the use of this tool solely for                        ║\n"
-      "║         educational reasons only                               ║\n"
-      "║                                                                ║\n"
-      "║      By using this tool you agree that                         ║\n"
-      "║      1. You are willing to be charged with criminal or state   ║\n"
-      "║         law applicable by law enforcement officers             ║\n"
-      "║         and government when abused                             ║\n"
-      "║      2. the risk is borne by yourself                          ║\n"
-      "║                                                                ║\n"
-      "║         Thank you and happy pentest                            ║\n"
-      "║                                                                ║\n"
-      "╚════════════════════════════════════════════════════════════════╝")
-
 path = sys.argv[1]
 reg = '/home/op/JSScanner_Kadu/regex.txt'
 list=[] 
-file1 = open(path, 'r')
-Lines = file1.readlines() 
+Lines = [path]
 count = 0
 # Strips the newline character
 for line in Lines: 
